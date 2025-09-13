@@ -7,6 +7,7 @@ c++ solutions of leetcode problems
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0347-top-k-frequent-elements) |
 | [2058-concatenation-of-array](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/2058-concatenation-of-array) |
@@ -18,18 +19,21 @@ c++ solutions of leetcode problems
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
