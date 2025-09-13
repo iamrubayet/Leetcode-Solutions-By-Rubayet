@@ -1,32 +1,27 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int,int> counts;
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> min_heap;
-        
-        for(auto i : nums)
+        unordered_map<int,int> countmap;
+        for(int i=0;i<nums.size();i++)
         {
-            counts[i]++;
+            countmap[nums[i]]++;
         }
-        
-        for(auto & i : counts)
+
+        vector<pair<int,int>> sorted;
+        for(auto itr=countmap.begin();itr!=countmap.end();++itr)
         {
-            min_heap.push({i.second,i.first});
-            if(min_heap.size() > k)
-            {
-                min_heap.pop();
-            }
+            sorted.push_back({itr->second,itr->first});
         }
-        
-        vector<int> result;
-        
-        while(k--)
+
+        sort(sorted.rbegin(),sorted.rend());
+
+        vector<int> res;
+        for(int i=0;i<k;++i)
         {
-            result.push_back(min_heap.top().second);
-            min_heap.pop();
-            
+            res.push_back(sorted[i].second);
         }
-        return result;
-        
+        return res;
+
+
     }
 };
