@@ -2,19 +2,22 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         int n = nums.size();
-
-        unordered_map<int,int> prevmap; //value->index
+        unordered_map<int,int> targetmap;
 
         for(int i=0;i<n;i++)
         {
-            int diff = target - nums[i];
-            if(prevmap.find(diff) != prevmap.end())
+            int diff = target-nums[i];
+            if(targetmap.find(diff)!=targetmap.end())
             {
-                return {prevmap[diff],i};
+                return {targetmap[diff],i};
             }
-            prevmap[nums[i]]=i;
+            targetmap.insert({nums[i],i});
         }
         return {};
+
+
+
+
         
     }
 };
