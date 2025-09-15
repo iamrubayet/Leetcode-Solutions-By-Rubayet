@@ -6,21 +6,23 @@ public:
             return false;
         }
 
-        vector<int> freq(26,0);
+        unordered_map<char,int> charmapone;
+        unordered_map<char,int> charmaptwo;
 
         for(int i=0;i<s.length();i++)
         {
-            freq[s[i]-'a']++;
-            freq[t[i]-'a']--;
+            charmapone[s[i]]++;
+            charmaptwo[t[i]]++;
         }
 
-        for(int i=0;i<freq.size();i++)
+        if (charmapone == charmaptwo)
         {
-            if(freq[i] != 0)
-            {
-                return false;
-            }
+            return true;
         }
-        return true;
+
+        return false;
+
+
+
     }
 };
