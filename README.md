@@ -8,6 +8,7 @@ c++ solutions of leetcode problems
 | ------- |
 | [0001-two-sum](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0049-group-anagrams) |
+| [0136-single-number](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0136-single-number) |
 | [0217-contains-duplicate](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0347-top-k-frequent-elements) |
 | [2058-concatenation-of-array](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/2058-concatenation-of-array) |
@@ -55,4 +56,8 @@ c++ solutions of leetcode problems
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0347-top-k-frequent-elements) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/iamrubayet/Leetcode-Solutions-By-Rubayet/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
